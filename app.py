@@ -6,7 +6,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    """Return the dashboard homepage"""
     return render_template('index.html')
 
 if __name__ == "__main__":
